@@ -18,7 +18,7 @@ namespace DeviceIdChanger
             if (processId >= 0)
             {
                 this.memory.OpenProcess(processId);
-                this.label3.Text = this.memory.ReadMemory<String>("14F50A910D0")?.ToString();
+                this.label3.Text = this.memory.ReadMemory<String>("Minecraft.Windows.exe+04973070,0,20,0")?.ToString();
                 this.label3.ForeColor = System.Drawing.Color.White;
             }
         }
@@ -35,8 +35,8 @@ namespace DeviceIdChanger
             this.memory.OpenProcess(processId);
             Inject:
             string uuid4 = Guid.NewGuid().ToString();
-            this.memory.WriteMemory("14F50A910D0", "string", uuid4);
-            this.label3.Text = this.memory.ReadMemory<String>("14F50A910D0")?.ToString();
+            this.memory.WriteMemory("Minecraft.Windows.exe+04973070,0,20,0", "string", uuid4);
+            this.label3.Text = this.memory.ReadMemory<String>("Minecraft.Windows.exe+04973070,0,20,0")?.ToString();
             this.label3.ForeColor = System.Drawing.Color.White;
         }
 
