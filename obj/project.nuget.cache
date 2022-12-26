@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yePtCfMJDHGI9TXgX5uDxYmMwZaY8xki3TeAuplGsky0nLYtjhp7SqWhvdDubuuoxlqolNSgdXyfjUp1d8zSmg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hamza\\source\\repos\\DeviceIdChanger\\DeviceIdChanger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hamza\\.nuget\\packages\\memory.dll.x64\\1.2.24\\memory.dll.x64.1.2.24.nupkg.sha512"
+  ],
+  "logs": []
+}
